@@ -2,7 +2,7 @@ import React , {useMemo} from "react";
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 import './Contact.css'
 const Contact = () => {
-  const center = useMemo(() => ({ lat: 32.95091, lng: -117.05985 }), []);
+  const center = useMemo(() => ({ lat: 44.154770, lng: -81.025960 }), []);
 
   const { isLoaded } = useLoadScript({
     // googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY,
@@ -24,7 +24,7 @@ const Contact = () => {
           center={center}
           mapContainerClassName="map-container"
         >
-          <MarkerF position={{ lat: 32.95091, lng: -117.05985 }}></MarkerF>
+          <MarkerF position={{ lat: 44.154770, lng: -81.025960 }}></MarkerF>
         </GoogleMap>
       </div>
     );

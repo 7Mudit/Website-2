@@ -1,0 +1,104 @@
+.heroSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+
+.HeroImage{
+    width:90%;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+.instantSupport{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.instantSupportHeading{
+    text-align: center;
+    padding: 0 1%;
+}
+
+.iSFirstSection{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+.chatSupport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chatSupportImage{
+    width: 100px;
+    height: 100px;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.settingsImage{
+    width: 120px;
+    height: 100px;
+}
+.downloads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.downloadsImage{
+    width: 100px;
+    height: 100px;
+}
+
+.iSSecondSection{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    height: 450px;
+}
+.secondSectionFirstCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.secondSectionSecondCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.printerConnectImage{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width:720px) {
+    .heroSection{
+        top: 130px;
+    }
+    .iSFirstSection{
+        flex-direction: column;
+        height: 600px;
+    }
+    .iSSecondSection{
+        flex-direction: column;
+        height: 1000px;
+    }
+}

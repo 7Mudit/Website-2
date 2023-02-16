@@ -118,22 +118,7 @@
 }
 
 @media screen and (max-width : 848px) {
-    .banner1 {
-        display: none;
-    }
 
-    .navItems {
-        width: 60%;
-    }
-
-    .logoText {
-        font-size: 20px;
-    }
-
-    .logoImage {
-        width: 80px;
-        height: 80px;
-    }
 }
 
 .burgerMenu {
@@ -159,7 +144,23 @@
 }
 
 /* 748px  me navbar button lga dena*/
-@media screen and (max-width : 720px) {
+@media screen and (max-width : 872px) {
+    .banner1 {
+        display: none;
+    }
+
+    .navItems {
+        width: 60%;
+    }
+
+    .logoText {
+        font-size: 20px;
+    }
+
+    .logoImage {
+        width: 80px;
+        height: 80px;
+    }
     .banner2 {
         /* position: fixed; */
         background-color: white;

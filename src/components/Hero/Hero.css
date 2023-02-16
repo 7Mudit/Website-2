@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 2000px;
+    height: 2500px;
+    gap: 20px;
 }
 
 .HeroImage{
@@ -28,7 +29,7 @@
     padding: 0 5%;
     align-items: center;
     justify-content: space-around;
-    height: 300px;
+    /* height: 300px; */
 }
 .chatSupport{
     display: flex;
@@ -47,7 +48,7 @@
     justify-content: center;
 }
 .settingsImage{
-    width: 120px;
+    width: 150px;
     height: 100px;
 }
 .downloads{
@@ -68,7 +69,7 @@
     align-items: center;
     gap: 20px;
     text-align: justify;
-    height: 450px;
+    /* height: 450px; */
 }
 .secondSectionFirstCard{
     display: flex;
@@ -127,7 +128,7 @@
 @media screen and (max-width:872px) {
     .heroSection{
         top: 130px;
-        height: 5000px;
+        height: 6500px;
     }
     .instantSupport{
         height: 1250px;
@@ -135,8 +136,11 @@
     .instantSupportHeading{
         font-size: 16px;
     }
+    .printerConnectHeading{
+        font-size: 16px;
+    }
     .printerConnectParagraph{
-        font-size: 12px;
+        font-size: 14px;
     }
     .iSFirstSection{
         flex-direction: column;
@@ -147,12 +151,12 @@
         height: 1000px;
     }
     .chatSupportImage{
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 100px;
     }
     .downloadsImage{
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 100px;
     }
     .firstRowHpPrinters{
         flex-direction: column;

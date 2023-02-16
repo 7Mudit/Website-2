@@ -117,10 +117,6 @@
     font-weight: 800;
 }
 
-@media screen and (max-width : 848px) {
-
-}
-
 .burgerMenu {
     display: none;
 }

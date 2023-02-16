@@ -23,14 +23,13 @@ const Footer = () => {
           <div class="foo-column">
             <h3 class="footer-subheading">Quick Links</h3>
             <ul class="footer-list">
-              <li class="footer-hover-item">Home</li>
+            <a href="/"><li class="footer-hover-item">Home</li></a>
               {/* <li>
                 <span class="current">About Us</span>
               </li> */}
-              <li class="footer-hover-item">About Us</li>
-              <li class="footer-hover-item">Shop</li>
-              <li class="footer-hover-item">Contact Us</li>
-              <li class="footer-hover-item">Login/Signup</li>
+              <a href="/about"><li class="footer-hover-item">About Us</li></a>
+              <a href="/shop"> <li class="footer-hover-item">Shop</li></a>
+              <a href="/contact"><li class="footer-hover-item">Contact Us</li></a>
             </ul>
           </div>
 

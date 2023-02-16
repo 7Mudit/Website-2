@@ -32,15 +32,16 @@ const About = () => {
               The www.getprintsolution.com website leverages the success of
               proven e-commerce platform and technology to deliver customers an
               exciting and unique destination Home & Business printer..
-              <br /><br />
               <br />
-              We conduct business honestly and treat our consumers ethically.
               <br />
-              We provide world class service to our customers.
               <br />
-              Custome relationship is a very important part of our business.
+              1. We conduct business honestly and treat our consumers ethically.
               <br />
-              Your satisfaction is important to us, and we thank you for your
+              2. We provide world class service to our customers.
+              <br />
+              3. Custome relationship is a very important part of our business.
+              <br />
+              4. Your satisfaction is important to us, and we thank you for your
               business.
             </p>
           </div>

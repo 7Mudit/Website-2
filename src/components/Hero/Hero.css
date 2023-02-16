@@ -15,11 +15,11 @@
 .instantSupport{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .instantSupportHeading{
     text-align: center;
-    padding: 0 1%;
+    height: 50px;
 }
 
 .iSFirstSection{
@@ -64,7 +64,7 @@
 .iSSecondSection{
     display: flex;
     flex-direction: row;
-    padding: 0 5%;
+    padding: 0 3%;
     align-items: center;
     gap: 20px;
     text-align: justify;
@@ -88,10 +88,55 @@
     width: 150px;
     height: 150px;
 }
+.HpPrinters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstRowHpPrinters{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.HpPrinters1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.HpPrinters1Image{
+    width: 200px;
+    height: 200px;
+}
+.HpPrinters1Paragraph{
+    width: 200px;
+    font-weight: 800;
+}
+.HpPrinters1prize{
+    width: 200px;
+    text-align: left;
+}
 
-@media screen and (max-width:720px) {
+
+/* media queries */
+
+@media screen and (max-width:872px) {
     .heroSection{
         top: 130px;
+        height: 5000px;
+    }
+    .instantSupport{
+        height: 1250px;
+    }
+    .instantSupportHeading{
+        font-size: 16px;
+    }
+    .printerConnectParagraph{
+        font-size: 12px;
     }
     .iSFirstSection{
         flex-direction: column;
@@ -101,4 +146,18 @@
         flex-direction: column;
         height: 1000px;
     }
+    .chatSupportImage{
+        width: 120px;
+        height: 120px;
+    }
+    .downloadsImage{
+        width: 150px;
+        height: 150px;
+    }
+    .firstRowHpPrinters{
+        flex-direction: column;
+    }
+
 }
+
+

@@ -163,5 +163,13 @@
     }
 
 }
-
+@media screen and (max-width:330px) {
+    .printerConnectHeading{
+        font-size: 13px;
+    }
+    .printerConnectParagraph{
+        
+        font-size: 10px;
+    }
+}
 

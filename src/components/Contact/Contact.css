@@ -1,4 +1,9 @@
-
+.loading{
+    width: 100%;
+    position: relative;
+    top: 125px;
+    text-align: center;
+}
 .contactUsSection{
     width: 100%;
     position: relative;

@@ -8,7 +8,7 @@ const Contact = () => {
     // googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY,
     googleMapsApiKey: "AIzaSyB26VJ7ADx-JHalAdf8mkl0H5Z_xOGjRwM",
   });
-  if (!isLoaded) return <div>Loading...</div>;
+  if (!isLoaded) return <div className="loading">Loading...</div>;
   else
     return (
       <div className="contactUsSection">

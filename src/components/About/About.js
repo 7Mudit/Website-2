@@ -8,7 +8,7 @@ const About = () => {
       <div className="aboutUsSection">
         <div className="aboutUsBanner">
           <h1>About Us</h1>
-          <h4>Home &gt; About Us</h4>
+          <h4><a href="/">Home</a>  &gt; About Us</h4>
         </div>
         <div className="whoWeAre">
           <img src={first} alt="Not Found" className="whoWeAreImage" />

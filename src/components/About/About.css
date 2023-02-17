@@ -16,6 +16,10 @@
     align-items: center;
     background-color: rgb(233, 233, 233);
 }
+.aboutUsBanner a{
+    text-decoration: none;
+    color: black;
+}
 .aboutUsBanner h1{
     font-weight: 500;
 }
@@ -91,7 +95,7 @@
         align-items: flex-start;
         gap: 20px;
         justify-content: center;
-        height: 200px;
+        height: 100px;
         /* height: 800px; */
     }
     .whoWeAreImage{

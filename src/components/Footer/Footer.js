@@ -14,8 +14,8 @@ const Footer = () => {
               <span class="footer-span">Email:</span> info@getprintsolution.com
             </p>
             <p class="footer-p">
-              <span class="footer-span">Add.:</span> Longwell Ave, Westminster,
-              MD 21157, United States
+              <span class="footer-span">Address:</span>           548 11th Av Hanover
+          On N4N 2S4 CANADA
             </p>
           </div>
 

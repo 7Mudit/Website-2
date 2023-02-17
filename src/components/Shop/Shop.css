@@ -6,6 +6,7 @@
     height: 1800px;
     gap: 30px;
 }
+
 .aboutUsBanner a{
     text-decoration: none;
     color: black;
@@ -22,6 +23,10 @@
 }
 .aboutUsBanner h1{
     font-weight: 500;
+}
+a .HpPrinters1{
+    text-decoration: none;
+    color: black;
 }
 .aboutUsBanner h4{
     font-weight: 100;

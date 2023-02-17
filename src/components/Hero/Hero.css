@@ -121,7 +121,10 @@
     width: 200px;
     text-align: left;
 }
-
+a .HpPrinters1{
+    text-decoration: none;
+    color: black;
+}
 
 /* media queries */
 

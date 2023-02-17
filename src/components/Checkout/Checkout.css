@@ -1,0 +1,180 @@
+.checkoutSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    gap: 20px;
+}
+
+.aboutUsBanner{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+}
+.aboutUsBanner a{
+    text-decoration: none;
+    color: black;
+}
+.aboutUsBanner h1{
+    font-weight: 500;
+}
+.aboutUsBanner h4{
+    font-weight: 100;
+}
+
+
+
+.checkoutSecondSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billingDetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+.billingDetails input{
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+}
+.billingDetails textarea{
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.orderDetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    gap: 30px;
+    background-color: rgb(233, 233, 233);
+}
+.orderDetails h1{
+    font-weight: 400;
+    font-style: italic;
+}
+.productDetails{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: white;
+    padding: 4%;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.creditCard{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    color: black;
+    flex-wrap: wrap;
+}
+#svg1{
+    width: 50px;
+}
+.creditCardPaymentDetails{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: black;
+
+}
+.creditCardPaymentDetails h4{
+    font-weight: 300;
+}
+.creditCardPaymentDetailsInput {
+    width: 90%;
+    height: 40px;
+    border: 1px solid black;
+    letter-spacing: 1.5px;
+}
+
+.productDetails h4{
+    font-weight: 200;
+}
+.orderDetails p{
+    width: 80%;
+    text-align: justify;
+}
+
+.placeOrder{
+    background-color: hsl(310.82, 25.74%, 46.47%);
+    width: 80%;
+    padding: 2%;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.placeOrder:hover{
+    background-color: hsl(310.82, 25.74%, 26.47%);
+}
+
+@media screen and (max-width: 882px){
+    .checkoutSection{
+        height: 1600px;
+    }
+}
+@media screen and (max-width:872px){
+
+    .checkoutSection{
+        top: 125px;
+        height: 2800px;
+    }
+    .checkoutSecondSection{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .billingDetails{
+        width: 90%;
+    }
+    .orderDetails{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width : 500px) {
+
+    .aboutUsBanner{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        justify-content: center;
+        height: 100px;
+        /* height: 800px; */
+    }
+    .orderDetails p{
+        font-size: 12px;
+    }
+}

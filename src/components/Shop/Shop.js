@@ -25,7 +25,7 @@ const Shop = () => {
       <div className="aboutUsBanner">
         <h1>About Us</h1>
         <h4>
-          <a href="/">Home</a> &gt; About Us
+          <a href="/">Home</a> &gt; Shop
         </h4>
       </div>
       <div className="HpPrinters">

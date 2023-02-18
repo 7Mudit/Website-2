@@ -1,6 +1,6 @@
 import "./Hero.css";
 import React from "react";
-import bannerImage from "../images/bannerImage.jpg";
+import banner from "../images/banner3.jpg";
 import headphone from "../images/headphone.jpg";
 import settings from "../images/settings.png";
 import downloads from "../images/downloads.png";
@@ -29,7 +29,19 @@ const Hero = () => {
     <>
       <div className="heroSection">
         {/* first image section */}
-        <img src={bannerImage} className="HeroImage" alt="" />
+        {/* <img src={bannerImage} className="HeroImage" alt="" /> */}
+        <div className="HeroImage">
+ 
+        <div className="HeroImageHeadings">
+        <h1 className="mainHeading">Home & Business Printers </h1>
+          <h4 className="subPoints">1. Get Printers & scanner Online</h4>
+          <h4 className="subPoints">2. Contact us for your questions </h4>
+          <h4 className="subPoints">3. Buy Home & office printer online </h4>
+          <h4 className="subPoints">4. Printer installation, printer set up </h4>
+          <h4 className="subPoints">5. Printer wireless set up </h4>
+        </div>
+          <img src={banner} className="rightImage" alt="" />
+        </div>
         {/* section section */}
         <div className="instantSupport">
           <h1 className="instantSupportHeading">
@@ -61,16 +73,17 @@ const Hero = () => {
                 alt="Not Found"
               />
               <h2 className="printerConnectHeading">
-                Connect Printer through wire or Wireless
+                Printer Driver installation
               </h2>
               <p className="printerConnectParagraph">
-                A wireless printer can be used by many different devices through
-                network. If you have a Wi-Fi or traditional (wired) network
-                printer, you can directly connect it to the network. But if the
-                printer isn’t network-enabled, you can add it as a local printer
-                and share it on your network. We will teach you how to add a
-                network printer on Windows or macOS, as well as how to share a
-                local printer with your network.
+                A printer driver is a software application which allows programs
+                on a computer to communicate with the printer. When a computer
+                user orders a program to print, the driver acts like an
+                intermediary, converting the information from the program into a
+                format which can be understood by the printer. Printer drivers
+                are printer and operating system specific, and it is important
+                to use the correct driver and to confirm that the driver in use
+                is current to avoid problems.
               </p>
             </div>
             <div className="secondSectionSecondCard">
@@ -80,197 +93,255 @@ const Hero = () => {
                 alt="Not Found"
               />
               <h2 className="printerConnectHeading">
-                Support for the Driver Download & Installation
+                Wireless Printer connection
               </h2>
               <p className="printerConnectParagraph">
-                A Printer driver is a piece of software designed to help your
-                printer communicate with your mobile device or computer. We
-                allow your HP Printer, to talk directly with your device. This
-                allows the machinery to understand data sent from a device (such
-                as a picture you want to print or a document you want to scan),
-                and perform the necessary actions. Think of your HP printer
-                driver as the translator who helps your technology to
-                communicate more effectively.
+                A wireless printer is not connected to a computer or network by
+                traditional computer or Ethernet cable. Instead, all printing
+                information is sent to the printer via wireless connection. A
+                wireless printer can also be connected to a network and serve
+                multiple computers, but it can also serve as a standalone
+                printer for one computer.
               </p>
             </div>
           </div>
         </div>
         {/* hp printers two rows */}
         <div className="HpPrinters">
-        <h1>HP Printers</h1>
-        <div className="firstRowHpPrinters">
-          <a href="/checkout">
-            <div className="HpPrinters1">
-              <img
-                src={printer1}
-                alt="Not Found"
-                className="HpPrinters1Image"
-              />
-              <div className="HpPrinters1Paragraph">
-                Envy Pro 6475 Wireless All In One Inkjet Printer with 2 years of
-                HP Instant Ink – White
+          <h1>HP Printers</h1>
+          <div className="firstRowHpPrinters">
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer1}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Envy Pro 6475 Wireless All In One Inkjet Printer with 2 years
+                  of HP Instant Ink – White
+                </div>
+                <div className="HpPrinters1prize">$259.99</div>
               </div>
-              <div className="HpPrinters1prize">$259.99</div>
-            </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer2} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – DeskJet 2724 Wireless All-In-One Instant Ink Ready Inkjet
-              Printer – White & Sage
-            </div>
-            <div className="HpPrinters1prize">$75.99</div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer2}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – DeskJet 2724 Wireless All-In-One Instant Ink Ready Inkjet
+                  Printer – White & Sage
+                </div>
+                <div className="HpPrinters1prize">$75.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer3}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – DeskJet Plus 4155 Wireless All-In-One Instant Ink-Ready
+                  Inkjet Printer – White
+                </div>
+                <div className="HpPrinters1prize">$105.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer4}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – ENVY Photo 7155 Wireless All-In-One Instant Ink Ready
+                  Inkjet Printer – Black
+                </div>
+                <div className="HpPrinters1prize">$185.99</div>
+              </div>
+            </a>
           </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer3} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – DeskJet Plus 4155 Wireless All-In-One Instant Ink-Ready
-              Inkjet Printer – White
-            </div>
-            <div className="HpPrinters1prize">$105.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer4} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – ENVY Photo 7155 Wireless All-In-One Instant Ink Ready Inkjet
-              Printer – Black
-            </div>
-            <div className="HpPrinters1prize">$185.99</div>
-          </div>
-          </a>
-        </div>
 
-        <div className="firstRowHpPrinters">
-        <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer5} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – OfficeJet Pro 9025 Wireless All-In-One Instant Ink Ready
-              Inkjet Printer – Gray
-            </div>
-            <div className="HpPrinters1prize">$339.99</div>
+          <div className="firstRowHpPrinters">
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer5}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – OfficeJet Pro 9025 Wireless All-In-One Instant Ink Ready
+                  Inkjet Printer – Gray
+                </div>
+                <div className="HpPrinters1prize">$339.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer6}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer
+                </div>
+                <div className="HpPrinters1prize">$415.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer7}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer
+                </div>
+                <div className="HpPrinters1prize">$415.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={printer8}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  HP – LaserJet Pro M15w Laser Printer – White
+                </div>
+                <div className="HpPrinters1prize">$109.99</div>
+              </div>
+            </a>
           </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer6} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer
-            </div>
-            <div className="HpPrinters1prize">$415.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer7} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer
-            </div>
-            <div className="HpPrinters1prize">$415.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={printer8} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              HP – LaserJet Pro M15w Laser Printer – White
-            </div>
-            <div className="HpPrinters1prize">$109.99</div>
-          </div>
-          </a>
         </div>
-      </div>
-      {/* brother printers two rows */}
-      <div className="HpPrinters">
-        <h1>Brother Printers</h1>
-        <div className="firstRowHpPrinters">
-        <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother5} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother MFC-L2710DW Wireless Compact Monochrome Laser All-in-One
-              Printer
-            </div>
-            <div className="HpPrinters1prize">$319.99</div>
+        {/* brother printers two rows */}
+        <div className="HpPrinters">
+          <h1>Brother Printers</h1>
+          <div className="firstRowHpPrinters">
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother5}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother MFC-L2710DW Wireless Compact Monochrome Laser
+                  All-in-One Printer
+                </div>
+                <div className="HpPrinters1prize">$319.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother6}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother MFC7240 Compact Laser All-in-One
+                </div>
+                <div className="HpPrinters1prize">$219.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother7}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother – HL-L3270CDW Wireless Color Laser Printer – White
+                </div>
+                <div className="HpPrinters1prize">$251.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother8}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother – INKvestment Tank MFC-J995DW Wireless All-In-One
+                  Inkjet Printer – White
+                </div>
+                <div className="HpPrinters1prize">$210.99</div>
+              </div>
+            </a>
           </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother6} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother MFC7240 Compact Laser All-in-One
-            </div>
-            <div className="HpPrinters1prize">$219.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother7} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother – HL-L3270CDW Wireless Color Laser Printer – White
-            </div>
-            <div className="HpPrinters1prize">$251.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother8} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother – INKvestment Tank MFC-J995DW Wireless All-In-One Inkjet
-              Printer – White
-            </div>
-            <div className="HpPrinters1prize">$210.99</div>
-          </div>
-          </a>
-        </div>
 
-        <div className="firstRowHpPrinters">
-        <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother1} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother – INKvestment Tank MFC-J805DW Wireless All-In-One Inkjet
-              Printer – White
-            </div>
-            <div className="HpPrinters1prize">$169.99</div>
+          <div className="firstRowHpPrinters">
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother1}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother – INKvestment Tank MFC-J805DW Wireless All-In-One
+                  Inkjet Printer – White
+                </div>
+                <div className="HpPrinters1prize">$169.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother2}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother HL-L2300d Compact, Personal, Monochrome Laser Printer,
+                  Duplex Printing
+                </div>
+                <div className="HpPrinters1prize">$199.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother3}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother – MFC-L8900CDW Wireless Color All-in-One Laser Printer
+                  – White
+                </div>
+                <div className="HpPrinters1prize">$535.99</div>
+              </div>
+            </a>
+            <a href="/checkout">
+              <div className="HpPrinters1">
+                <img
+                  src={brother4}
+                  alt="Not Found"
+                  className="HpPrinters1Image"
+                />
+                <div className="HpPrinters1Paragraph">
+                  Brother HL-L2325DW Monochrome Wireless Laser Printer
+                </div>
+                <div className="HpPrinters1prize">$185.49</div>
+              </div>
+            </a>
           </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother2} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother HL-L2300d Compact, Personal, Monochrome Laser Printer,
-              Duplex Printing
-            </div>
-            <div className="HpPrinters1prize">$199.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother3} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother – MFC-L8900CDW Wireless Color All-in-One Laser Printer –
-              White
-            </div>
-            <div className="HpPrinters1prize">$535.99</div>
-          </div>
-          </a>
-          <a href="/checkout">
-          <div className="HpPrinters1">
-            <img src={brother4} alt="Not Found" className="HpPrinters1Image" />
-            <div className="HpPrinters1Paragraph">
-              Brother HL-L2325DW Monochrome Wireless Laser Printer
-            </div>
-            <div className="HpPrinters1prize">$185.49</div>
-          </div>
-          </a>
         </div>
-      </div>
       </div>
     </>
   );

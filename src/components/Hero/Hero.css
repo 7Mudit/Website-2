@@ -6,12 +6,31 @@
     height: 2500px;
     gap: 20px;
 }
+.mainHeading{
+    padding: 3% 0%;
+    font-size: 26px;
+}
+.subPoints{
+    padding: 0 4%;
+}
 
 .HeroImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width:90%;
     margin: 0 auto;
     padding: 0 2%;
 
+}
+.HeroImageHeadings{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.rightImage{
+    width: 50%;
 }
 .instantSupport{
     display: flex;
@@ -72,6 +91,7 @@
     /* height: 450px; */
 }
 .secondSectionFirstCard{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +99,7 @@
     gap: 10px;
 }
 .secondSectionSecondCard{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,9 +150,16 @@ a .HpPrinters1{
 /* media queries */
 
 @media screen and (max-width:872px) {
+    .rightImage{
+        width: 70%;
+    }
+    .HeroImage{
+        flex-direction: column;
+        gap: 20px;
+    }
     .heroSection{
         top: 130px;
-        height: 6500px;
+        height: 6800px;
     }
     .instantSupport{
         height: 1250px;
@@ -163,10 +191,23 @@ a .HpPrinters1{
     }
     .firstRowHpPrinters{
         flex-direction: column;
+    }.secondSectionFirstCard{
+        width: 100%;
+
+    }
+    .secondSectionSecondCard{
+        width: 100%;
     }
 
 }
 @media screen and (max-width:330px) {
+    .mainHeading{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .subPoints{
+        font-size: 13px;
+    }
     .printerConnectHeading{
         font-size: 13px;
     }

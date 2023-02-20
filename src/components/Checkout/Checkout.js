@@ -3,12 +3,13 @@ import "./Checkout.css";
 import mastercard from "../images/Unknown10.png";
 import american from "../images/american.png";
 import disover from "../images/Discover.png";
-const Checkout = () => {
+import ScrollToTop from "../ScrollToTop/ScrollToTop"
+const Checkout = ({ paragraph, prize }) => {
   return (
-    <>
+    <ScrollToTop>
       <div className="checkoutSection">
         <div className="aboutUsBanner">
-          <h1>About Us</h1>
+          <h1>Checkout</h1>
           <h4>
             <a href="/">Home</a> &gt; Checkout
           </h4>
@@ -60,17 +61,14 @@ const Checkout = () => {
               </h4>
             </div>
             <div className="productDetails">
-              <h4>
-                HP - DeskJet Plus 4155 Wireless All-In-One Instant Ink-Ready
-                Inkjet Printer - White{" "}
-              </h4>
-              <h4>$105.99</h4>
+              <h4>{paragraph}</h4>
+              <h4>{prize}</h4>
             </div>
             <div className="productDetails">
               <h4>
                 <b>TOTAL</b>
               </h4>
-              <h4>$105.99</h4>
+              <h4>{prize}</h4>
             </div>
             <h1>Payment</h1>
             <div className="creditCardPaymentDetails">
@@ -132,7 +130,7 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-    </>
+    </ScrollToTop>
   );
 };
 

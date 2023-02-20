@@ -1,6 +1,6 @@
 import "./Hero.css";
-import React from "react";
-import banner from "../images/banner3.jpg";
+import React ,{useState} from "react";
+import banner1 from "../images/banner1.jpeg";
 import headphone from "../images/headphone.jpg";
 import settings from "../images/settings.png";
 import downloads from "../images/downloads.png";
@@ -23,8 +23,138 @@ import brother5 from "../images/Brother5.png";
 import brother6 from "../images/Brother6.webp";
 import brother7 from "../images/Brother7.jpeg";
 import brother8 from "../images/Brother8.jpeg";
+import Checkout from "../Checkout/Checkout";
 
 const Hero = () => {
+  const [active, setActive] = useState(" ");
+  if (active === "FirstCard") {
+    return (
+      <Checkout
+        paragraph="Envy Pro 6475 Wireless All In One Inkjet Printer with 2 years of HP Instant Ink – White"
+        prize="$259.99"
+      />
+    );
+  } 
+  else if(active === "SecondCard"){
+    return (
+      <Checkout
+        paragraph="HP – DeskJet 2724 Wireless All-In-One Instant Ink Ready Inkjet Printer – White & Sage"
+        prize="$75.99"
+      />
+    );
+  }
+  else if(active === "ThirdCard"){
+    return (
+      <Checkout
+        paragraph="HP – DeskJet Plus 4155 Wireless All-In-One Instant Ink-Ready Inkjet Printer – White"
+        prize="$105.99"
+      />
+    );
+  }
+  else if(active === "FourthCard"){
+    return (
+      <Checkout
+        paragraph="HP – ENVY Photo 7155 Wireless All-In-One Instant Ink Ready Inkjet Printer – Black"
+        prize="$185.99"
+      />
+    );
+  }
+  else if(active === "FifthCard"){
+    return (
+      <Checkout
+        paragraph="HP – OfficeJet Pro 9025 Wireless All-In-One Instant Ink Ready Inkjet Printer – Gray"
+        prize="$339.99"
+      />
+    );
+  }
+  else if(active === "SixthCard"){
+    return (
+      <Checkout
+        paragraph="HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer"
+        prize="$415.99"
+      />
+    );
+  }
+  else if(active === "SeventhCard"){
+    return (
+      <Checkout
+        paragraph="HP – OfficeJet 200 Mobile Inkjet Printer – Black"
+        prize="$305.99"
+      />
+    );
+  }
+  else if(active === "EigthCard"){
+    return (
+      <Checkout
+        paragraph="HP – LaserJet Pro M15w Laser Printer – White"
+        prize="$109.99"
+      />
+    );
+  }
+  else if(active === "ninthCard"){
+    return (
+      <Checkout
+        paragraph="Brother MFC-L2710DW Wireless Compact Monochrome Laser All-in-One Printer"
+        prize="$319.99"
+      />
+    );
+  }
+  else if(active === "tenthCard"){
+    return (
+      <Checkout
+        paragraph="Brother MFC7240 Compact Laser All-in-One"
+        prize="$219.99"
+      />
+    );
+  }
+  else if(active === "eleventhCard"){
+    return (
+      <Checkout
+        paragraph="Brother – HL-L3270CDW Wireless Color Laser Printer – White"
+        prize="$251.99"
+      />
+    );
+  }
+  else if(active === "twelfthCard"){
+    return (
+      <Checkout
+        paragraph="Brother – INKvestment Tank MFC-J995DW Wireless All-In-One Inkjet Printer – White"
+        prize="$210.99"
+      />
+    );
+  }
+  else if(active === "thirteenthCard"){
+    return (
+      <Checkout
+        paragraph="Brother – INKvestment Tank MFC-J805DW Wireless All-In-One Inkjet Printer – White"
+        prize="$169.99"
+      />
+    );
+  }
+  else if(active === "fourteenthCard"){
+    return (
+      <Checkout
+        paragraph="Brother HL-L2300d Compact, Personal, Monochrome Laser Printer, Duplex Printing"
+        prize="$199.99"
+      />
+    );
+  }
+  else if(active === "fifteenthCard"){
+    return (
+      <Checkout
+        paragraph="Brother – MFC-L8900CDW Wireless Color All-in-One Laser Printer White"
+        prize="$535.99"
+      />
+    );
+  }
+  else if(active === "sixteenthCard"){
+    return (
+      <Checkout
+        paragraph="Brother HL-L2325DW Monochrome Wireless Laser Printer"
+        prize="$185.49"
+      />
+    );
+  }
   return (
     <>
       <div className="heroSection">
@@ -40,7 +170,7 @@ const Hero = () => {
           <h4 className="subPoints">4. Printer installation, printer set up </h4>
           <h4 className="subPoints">5. Printer wireless set up </h4>
         </div>
-          <img src={banner} className="rightImage" alt="" />
+          <img src={banner1} className="rightImage" alt="" />
         </div>
         {/* section section */}
         <div className="instantSupport">
@@ -108,24 +238,23 @@ const Hero = () => {
         </div>
         {/* hp printers two rows */}
         <div className="HpPrinters">
+        {/* first card */}
           <h1>HP Printers</h1>
           <div className="firstRowHpPrinters">
-            <a href="/checkout">
-              <div className="HpPrinters1">
-                <img
-                  src={printer1}
-                  alt="Not Found"
-                  className="HpPrinters1Image"
-                />
-                <div className="HpPrinters1Paragraph">
-                  Envy Pro 6475 Wireless All In One Inkjet Printer with 2 years
-                  of HP Instant Ink – White
-                </div>
-                <div className="HpPrinters1prize">$259.99</div>
+            <div className="HpPrinters1" onClick={() => setActive("FirstCard")}>
+              <img
+                src={printer1}
+                alt="Not Found"
+                className="HpPrinters1Image"
+              />
+              <div className="HpPrinters1Paragraph">
+                Envy Pro 6475 Wireless All In One Inkjet Printer with 2 years of
+                HP Instant Ink – White
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+              <div className="HpPrinters1prize">$259.99</div>
+            </div>
+{/* second card */}
+              <div className="HpPrinters1" onClick={() => setActive("SecondCard")}>
                 <img
                   src={printer2}
                   alt="Not Found"
@@ -137,9 +266,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$75.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+            {/* Third Card*/}
+              <div className="HpPrinters1" onClick={() => setActive("ThirdCard")} >
                 <img
                   src={printer3}
                   alt="Not Found"
@@ -151,9 +279,9 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$105.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+{/* Fourth Card */}
+              <div className="HpPrinters1" onClick={() => setActive("FourthCard")} >
                 <img
                   src={printer4}
                   alt="Not Found"
@@ -165,12 +293,12 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$185.99</div>
               </div>
-            </a>
           </div>
 
-          <div className="firstRowHpPrinters">
-            <a href="/checkout">
-              <div className="HpPrinters1">
+{/* fifth card */}
+
+          <div className="firstRowHpPrinters" >
+              <div className="HpPrinters1" onClick={() => setActive("FifthCard")}>
                 <img
                   src={printer5}
                   alt="Not Found"
@@ -182,9 +310,9 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$339.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+{/* sixth card */}
+              <div className="HpPrinters1" onClick={() => setActive("SixthCard")}>
                 <img
                   src={printer6}
                   alt="Not Found"
@@ -195,22 +323,22 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$415.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+{/* seventh card */}
+              <div className="HpPrinters1" onClick={() => setActive("SeventhCard")}>
                 <img
                   src={printer7}
                   alt="Not Found"
                   className="HpPrinters1Image"
                 />
                 <div className="HpPrinters1Paragraph">
-                  HP – Smart Tank Plus 651 Wireless All-In-One Inkjet Printer
+                HP – OfficeJet 200 Mobile Inkjet Printer – Black
                 </div>
-                <div className="HpPrinters1prize">$415.99</div>
+                <div className="HpPrinters1prize">$305.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+{/* eigth card */}
+              <div className="HpPrinters1"  onClick={() => setActive("EigthCard")}>
                 <img
                   src={printer8}
                   alt="Not Found"
@@ -221,15 +349,15 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$109.99</div>
               </div>
-            </a>
+
           </div>
         </div>
         {/* brother printers two rows */}
+
         <div className="HpPrinters">
           <h1>Brother Printers</h1>
-          <div className="firstRowHpPrinters">
-            <a href="/checkout">
-              <div className="HpPrinters1">
+          <div className="firstRowHpPrinters" >
+              <div className="HpPrinters1" onClick={() => setActive("ninthCard")}>
                 <img
                   src={brother5}
                   alt="Not Found"
@@ -241,9 +369,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$319.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+              <div className="HpPrinters1" onClick={() => setActive("tenthCard")}>
                 <img
                   src={brother6}
                   alt="Not Found"
@@ -254,9 +381,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$219.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+              <div className="HpPrinters1" onClick={() => setActive("eleventhCard")}>
                 <img
                   src={brother7}
                   alt="Not Found"
@@ -267,9 +393,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$251.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+              <div className="HpPrinters1" onClick={() => setActive("twelfthCard")}>
                 <img
                   src={brother8}
                   alt="Not Found"
@@ -281,12 +406,10 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$210.99</div>
               </div>
-            </a>
           </div>
 
           <div className="firstRowHpPrinters">
-            <a href="/checkout">
-              <div className="HpPrinters1">
+              <div className="HpPrinters1" onClick={() => setActive("thirteenthCard")}>
                 <img
                   src={brother1}
                   alt="Not Found"
@@ -298,9 +421,9 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$169.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+
+              <div className="HpPrinters1" onClick={() => setActive("fourteenthCard")}>
                 <img
                   src={brother2}
                   alt="Not Found"
@@ -312,9 +435,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$199.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+              <div className="HpPrinters1" onClick={() => setActive("fifteenthCard")}>
                 <img
                   src={brother3}
                   alt="Not Found"
@@ -326,9 +448,8 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$535.99</div>
               </div>
-            </a>
-            <a href="/checkout">
-              <div className="HpPrinters1">
+
+              <div className="HpPrinters1" onClick={() => setActive("sixteenthCard")}>
                 <img
                   src={brother4}
                   alt="Not Found"
@@ -339,7 +460,6 @@ const Hero = () => {
                 </div>
                 <div className="HpPrinters1prize">$185.49</div>
               </div>
-            </a>
           </div>
         </div>
       </div>

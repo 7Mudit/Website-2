@@ -11,10 +11,14 @@ const Footer = () => {
             <h1 class="footer-heading">Get In touch</h1>
             <p class="footer-p">Reach us for any sale & product query</p>
             <p class="footer-p">
-              <span class="footer-span">Email:</span> info@getprintsolution.com
+              <span class="footer-span">Email:</span> info@lowprinters.com
             </p>
             <p class="footer-p">
-              <span class="footer-span">Address:</span>           548 11th Av Hanover
+              <span class="footer-span">Phone:</span>+91 8008401731
+            </p>
+            <p class="footer-p">
+              <span class="footer-span">Address:</span> 548 11th Av Hanover
+              <br />
           On N4N 2S4 CANADA
             </p>
           </div>
@@ -65,7 +69,7 @@ const Footer = () => {
         <div class="footer-copyright">
           <div class="footer-content">
             <p class="footer-p">
-              Copyright© 2022. All Right Reserved. Owned & Managed by Get Print
+              Copyright© 2023. All Right Reserved. Owned & Managed by Get Print
               Solutions.
             </p>
           </div>

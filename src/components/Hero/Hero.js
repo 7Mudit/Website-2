@@ -1,6 +1,5 @@
 import "./Hero.css";
 import React ,{useState} from "react";
-import banner1 from "../images/banner1.jpeg";
 import headphone from "../images/headphone.jpg";
 import settings from "../images/settings.png";
 import downloads from "../images/downloads.png";
@@ -23,7 +22,9 @@ import brother5 from "../images/Brother5.png";
 import brother6 from "../images/Brother6.webp";
 import brother7 from "../images/Brother7.jpeg";
 import brother8 from "../images/Brother8.jpeg";
+import finalBanner from "../images/finalbanner.jpeg";
 import Checkout from "../Checkout/Checkout";
+
 
 const Hero = () => {
   const [active, setActive] = useState(" ");
@@ -170,7 +171,7 @@ const Hero = () => {
           <h4 className="subPoints">4. Printer installation, printer set up </h4>
           <h4 className="subPoints">5. Printer wireless set up </h4>
         </div>
-          <img src={banner1} className="rightImage" alt="" />
+          <img src={finalBanner} className="rightImage" alt="" />
         </div>
         {/* section section */}
         <div className="instantSupport">

@@ -69,8 +69,7 @@ const Footer = () => {
         <div class="footer-copyright">
           <div class="footer-content">
             <p class="footer-p">
-              Copyright© 2023. All Right Reserved. Owned & Managed by Get Print
-              Solutions.
+              Copyright© 2023. All Right Reserved. Owned & Managed by LOW PRINTERS
             </p>
           </div>
         </div>

@@ -8,29 +8,30 @@ const About = () => {
       <div className="aboutUsSection">
         <div className="aboutUsBanner">
           <h1>About Us</h1>
-          <h4><a href="/">Home</a>  &gt; About Us</h4>
+          <h4>
+            <a href="/">Home</a> &gt; About Us
+          </h4>
         </div>
         <div className="whoWeAre">
           <img src={first} alt="Not Found" className="whoWeAreImage" />
           <div className="whoWeAreText">
             <h1 className="whoWeAreHeading">Who We Are</h1>
             <p>
-              Get Print Solution is owned & managed by “Get Printer Solution”.
-              Get Print Solution is a online store to provide a wide range of
-              printers through the website www.getprintsolution.com every
-              season, We bring customers to the latest trends along with
-              thousands of items from brands across USA & Canada . Get Print
-              Solution now represents the best platform for brands in USA &
-              Canada.
+              Low Printers is owned & managed by “LOW PRINTERS”. Low Printers is
+              a online store to provide a wide range of printers through the
+              website www.lowprinters.com every season, We bring customers
+              to the latest trends along with thousands of items from brands
+              across USA & Canada . Low Printers now represents the best
+              platform for brands in USA & Canada.
             </p>
           </div>
         </div>
         <div className="whoWeAre">
           <div className="whoWeAreText">
-            <h1 className="whoWeAreHeading">We are Get Print Solution</h1>
+            <h1 className="whoWeAreHeading">We are Low Printers</h1>
             <p>
-              The www.getprintsolution.com website leverages the success of
-              proven e-commerce platform and technology to deliver customers an
+              The www.lowprinters.com website leverages the success of proven
+              e-commerce platform and technology to deliver customers an
               exciting and unique destination Home & Business printer..
               <br />
               <br />

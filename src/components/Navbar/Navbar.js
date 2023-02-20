@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="logo">
           <img src={logo} className="logoImage" alt="Not Found" />
           <h1 className="logoText">
-            GET PRINT <br />
-            SOLUTIONS
+            LOW <br />
+            PRINTERS
           </h1>
         </div>
 

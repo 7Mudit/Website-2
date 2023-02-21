@@ -65,7 +65,7 @@ const Refund = () => {
               situations.
             </li>
             <li>
-              Get Print Solution will resend the item to the customer via Flat
+              Low Printers will resend the item to the customer via Flat
               Rate Shipping. If the customer wants to utilize an express
               delivery option, the relevant shipping fee is applicable.
             </li>
@@ -144,7 +144,7 @@ const Refund = () => {
       <p>-Credit card refunds will take between 7-14 business days to appear in your account. This delay depends entirely on your credit card company and any intermediaries.</p>
       <p>Refund Policy when no refunds are processed:</p>
       <p>All transactions are final unless special circumstances. No refunds will be processed without proper verification. In the event of a billing error, please contact us within 3 business days to claim for the refund.</p>
-      <p>Once the we have received the returned product and confirmed the product condition as faulty, the return shipping cost will be refunded based on a valid return receipt. For example, if the return shipping fee is $25, the Expert IT Store will refund the same amount of $25 to the customer. If our technical team determines the item is not DOA, Get Print Solution will not compensate the return shipping fee. Refund requests for a return shipping fee without a valid RMA return receipt slip will not be accepted.</p>
+      <p>Once the we have received the returned product and confirmed the product condition as faulty, the return shipping cost will be refunded based on a valid return receipt. For example, if the return shipping fee is $25, the Expert IT Store will refund the same amount of $25 to the customer. If our technical team determines the item is not DOA, Low Printers will not compensate the return shipping fee. Refund requests for a return shipping fee without a valid RMA return receipt slip will not be accepted.</p>
         </div>
       </div>
     </>

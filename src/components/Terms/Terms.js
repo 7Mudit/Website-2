@@ -12,7 +12,7 @@ const Terms = () => {
         </div>
         <div className="termsContent">
 
-          <p>KINDLY READ THESE TERMS & CONDITIONS OF USE CAREFULLY BEFORE USING THE SITE, AS IT CONTAINS IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS, REMEDIES AND OBLIGATIONS. YOU SHOULD REVIEW THIS AGREEMENT, AS MODIFIED OR AMENDED FROM TIME TO TIME. These Terms of Use constitute an understanding in the middle of Get Print Solution. and you. By having the benefit of website, you ratify that you are able and legitimately capable to consent to and agree to these Terms & Conditions of Use. On the off chance that you don’t consent to these Terms of Use or on the off chance that you are not lawfully competent to consent to them, then you may not utilize the Sites.</p>
+          <p>KINDLY READ THESE TERMS & CONDITIONS OF USE CAREFULLY BEFORE USING THE SITE, AS IT CONTAINS IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS, REMEDIES AND OBLIGATIONS. YOU SHOULD REVIEW THIS AGREEMENT, AS MODIFIED OR AMENDED FROM TIME TO TIME. These Terms of Use constitute an understanding in the middle of Low Printer. and you. By having the benefit of website, you ratify that you are able and legitimately capable to consent to and agree to these Terms & Conditions of Use. On the off chance that you don’t consent to these Terms of Use or on the off chance that you are not lawfully competent to consent to them, then you may not utilize the Sites.</p>
 
           <h2>Ownership</h2>
           <p>Website materials are possessed by us and others and are secured by The United States and universal copyright, trademark and different laws.</p>
@@ -22,7 +22,7 @@ const Terms = () => {
 
           <p>On the off chance that you utilize a password to get to this Site or any part of it, then you are in charge of keeping up the confidentiality of the password and for confining access to your PC, and you consent to acknowledge obligation regarding all exercises that happen to you or with your password.</p>
 
-          <p>If the secrecy of your record or password is traded off in any way, you will inform us quickly. Get Print Solution, Store claims all authority to make any move, as it esteems vital or sensible to keep up the security of the Site and your record, including without restriction, ending your record, evolving your, watchword or asking for data to approve exchanges for you.</p>
+          <p>If the secrecy of your record or password is traded off in any way, you will inform us quickly. Low Printers, Store claims all authority to make any move, as it esteems vital or sensible to keep up the security of the Site and your record, including without restriction, ending your record, evolving your, watchword or asking for data to approve exchanges for you.</p>
 
           <h2>Errors on Website</h2>
           <p>We attempt to be as precise as could reasonably be expected. Notwithstanding, we don’t warrant that item depictions or other Site substance is precise, finished, solid, current, or mistake free. Costs and advancements are liable to change, and might shift from those offered in our store. We can’t affirm the accessibility or cost of a thing until you put on your catalogue.</p>
@@ -43,7 +43,7 @@ const Terms = () => {
 
         <h2>Links to the Site</h2>
 
-        <p>You are allowed a constrained, non-restrictive right to make a hypertext connection to the landing page just of this Site, gave such connection does not depict Get Print Solution. or any of its items and administrations in a false, deceptive, critical, or generally defamatory way. This constrained right might be repudiated whenever. You may not use, outline or use encircling methods to encase any Get Print Solution. trademark, logo or other restrictive data, including the pictures found at this Site, the substance of any content or the format/configuration of any page, or shape contained on a page without express composed assent. All other connecting is disallowed without earlier assent from Get Print Solution. But as noted above, you are not passed on any privilege or permit by suggestion, estoppel, or generally in or under any patent, trademark, copyright, or exclusive right of Get Print Solution. or any outsider.</p>
+        <p>You are allowed a constrained, non-restrictive right to make a hypertext connection to the landing page just of this Site, gave such connection does not depict Low Printers. or any of its items and administrations in a false, deceptive, critical, or generally defamatory way. This constrained right might be repudiated whenever. You may not use, outline or use encircling methods to encase any Low Printers. trademark, logo or other restrictive data, including the pictures found at this Site, the substance of any content or the format/configuration of any page, or shape contained on a page without express composed assent. All other connecting is disallowed without earlier assent from Low Printers. But as noted above, you are not passed on any privilege or permit by suggestion, estoppel, or generally in or under any patent, trademark, copyright, or exclusive right of Low Printers. or any outsider.</p>
 
         <h2>Contact Us</h2>
         <p>If you have any inquiries regarding our Terms and Conditions or practices please get in touch with us.</p>

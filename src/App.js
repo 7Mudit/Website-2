@@ -8,6 +8,8 @@ import Contact from "./components/Contact/Contact";
 import Shop from "./components/Shop/Shop";
 import Checkout from "./components/Checkout/Checkout";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Privacy from "./components/Privacy/Privacy";
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/shop" element={<Shop />} />
             <Route exact path="/checkout" element={<Checkout />} />
+            <Route exact path="/privacy" element={<Privacy />} />
           </Routes>
           <Footer />
         </ScrollToTop>

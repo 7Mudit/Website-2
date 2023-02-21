@@ -9,7 +9,8 @@ import Shop from "./components/Shop/Shop";
 import Checkout from "./components/Checkout/Checkout";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Privacy from "./components/Privacy/Privacy";
-
+import Refund from "./components/Refund/Refund";
+import Terms from "./components/Terms/Terms"
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
             <Route exact path="/shop" element={<Shop />} />
             <Route exact path="/checkout" element={<Checkout />} />
             <Route exact path="/privacy" element={<Privacy />} />
+            <Route exact path="/refund" element={<Refund />} />
+            <Route exact path="/terms" element={<Terms />} />
           </Routes>
           <Footer />
         </ScrollToTop>

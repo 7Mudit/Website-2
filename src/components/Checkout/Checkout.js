@@ -4,7 +4,7 @@ import mastercard from "../images/Unknown10.png";
 import american from "../images/american.png";
 import disover from "../images/Discover.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop"
-const Checkout = ({ paragraph, prize }) => {
+const Checkout = ({ paragraph = "No Item Selected", prize = "-" }) => {
   return (
     <ScrollToTop>
       <div className="checkoutSection">

@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 2300px;
+    height: auto;
+    margin-bottom: 100px;
     gap: 20px;
 }
 
@@ -53,16 +54,12 @@
     list-style: disc;
     width: 70%;
 }
-@media screen and (max-width:1100px){
-    .privacySection{
-        height: 2600px;
-    }
-}
+
 @media screen and (max-width:872px){
 
     .privacySection{
         top: 125px;
-        height: 3000px;
+        margin-bottom: 250px;
     }
     .privacyBanner h1{
         font-size: 20px;
@@ -75,8 +72,6 @@
 @media screen and (max-width:772px){
 
     .privacySection{
-        top: 125px;
-        height: 3000px;
         padding: 0 2%;
     }
     .listItems{
@@ -95,9 +90,6 @@
 }
 
 @media screen and (max-width : 672px) {
-    .privacySection{
-        height: 3500px;
-    }
 
     .privacyBanner{
         flex-direction: column;
@@ -111,7 +103,6 @@
 }
 @media screen and (max-width : 572px) {
     .privacySection{
-        height: 3250px;
         gap: 40px;
     }
     .listItems{
@@ -135,33 +126,4 @@
         font-size: 14px;
     }
 }
-@media screen and (max-width : 500px) {
-    .privacySection{
-        height: 3550px;
-        gap: 40px;
-    }
-}
-@media screen and (max-width : 450px) {
-    .privacySection{
-        height: 3650px;
-        gap: 40px;
-    }
-}
-@media screen and (max-width : 400px) {
-    .privacySection{
-        height: 3850px;
-        gap: 20px;
-    }
-}
-@media screen and (max-width : 375px) {
-    .privacySection{
-        height: 4250px;
-        gap: 20px;
-    }
-}
-@media screen and (max-width : 345px) {
-    .privacySection{
-        height: 4450px;
-        gap: 20px;
-    }
-}
+

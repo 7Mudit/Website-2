@@ -7,7 +7,7 @@ const Terms = () => {
         <div className="termsBanner">
           <h1>Terms</h1>
           <h4>
-            <a href="/">Home</a> &gt; Terms
+            <a href="/">Home</a> &gt; Terms & Conditions
           </h4>
         </div>
         <div className="termsContent">

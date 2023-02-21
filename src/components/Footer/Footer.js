@@ -1,5 +1,4 @@
 import React from "react";
-import Checkout from "../Checkout/Checkout";
 import "./Footer.css";
 const Footer = () => {
 
@@ -16,7 +15,7 @@ const Footer = () => {
                 <span class="footer-span">Email:</span> info@lowprinters.com
               </p>
               <p class="footer-p">
-                <span class="footer-span">Phone:</span>+91 8008401731
+                <span class="footer-span">Phone:</span>800-840-1731
               </p>
               <p class="footer-p">
                 <span class="footer-span">Address:</span> 548 11th Av Hanover
@@ -52,6 +51,9 @@ const Footer = () => {
             <div class="foo-column">
               <h3 class="footer-subheading">My Account</h3>
               <div class="footer-list">
+                <a href="/account">
+                  <li class="footer-hover-item">My Account</li>
+                </a>
                 <a href="/privacy">
                   <li class="footer-hover-item">Privacy Policy</li>
                 </a>

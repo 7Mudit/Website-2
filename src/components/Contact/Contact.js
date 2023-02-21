@@ -17,7 +17,7 @@ const Contact = () => {
           548 11th Av Hanover
           On N4N 2S4 CANADA
           <br />
-          Contact Number :+91 8008401731  
+          Contact Number :800-840-1731
         </h1>
         <GoogleMap
           zoom={12}

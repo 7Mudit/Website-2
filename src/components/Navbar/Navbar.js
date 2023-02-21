@@ -43,6 +43,9 @@ const Navbar = () => {
           <a href="/contact" className="fourthItem">
             Contact
           </a>
+          <a href="/account" className="fifthItem" >
+            My Account
+          </a>
         </div>
         <div className="burgerMenu" id="burgerMenu" onClick={changeVisibility}>
           <svg
@@ -94,6 +97,9 @@ const Navbar = () => {
         </a>
         <a href="/contact" className="navItems4">
           Contact
+        </a>
+        <a href="/Account" className="navItems4">
+          My Account
         </a>
       </div>
     </div>

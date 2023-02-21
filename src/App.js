@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Privacy from "./components/Privacy/Privacy";
 import Refund from "./components/Refund/Refund";
 import Terms from "./components/Terms/Terms"
+import Account from "./components/Account/Account"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route exact path="/privacy" element={<Privacy />} />
             <Route exact path="/refund" element={<Refund />} />
             <Route exact path="/terms" element={<Terms />} />
+            <Route exact path="/account" element={<Account />} />
           </Routes>
           <Footer />
         </ScrollToTop>

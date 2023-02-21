@@ -22,7 +22,7 @@ import brother5 from "../images/Brother5.png";
 import brother6 from "../images/Brother6.webp";
 import brother7 from "../images/Brother7.jpeg";
 import brother8 from "../images/Brother8.jpeg";
-import finalBanner from "../images/finalbanner.jpeg";
+import finalBanner from "../images/download.jpeg";
 import Checkout from "../Checkout/Checkout";
 
 

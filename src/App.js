@@ -10,8 +10,9 @@ import Checkout from "./components/Checkout/Checkout";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Privacy from "./components/Privacy/Privacy";
 import Refund from "./components/Refund/Refund";
-import Terms from "./components/Terms/Terms"
-import Account from "./components/Account/Account"
+import Terms from "./components/Terms/Terms";
+import Account from "./components/Account/Account";
+import Chat from "./components/Chat/Chat";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <ScrollToTop>
           <Navbar />
+          <Chat/>
           <Routes>
             <Route exact path="/" element={<Hero />} />
             <Route exact path="/about" element={<About />} />

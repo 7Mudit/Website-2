@@ -1,8 +1,8 @@
-import React , {useMemo} from "react";
+import React, { useMemo } from "react";
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
-import './Contact.css'
+import "./Contact.css";
 const Contact = () => {
-  const center = useMemo(() => ({ lat: 44.154770, lng: -81.025960 }), []);
+  const center = useMemo(() => ({ lat: 44.15477, lng: -81.02596 }), []);
 
   const { isLoaded } = useLoadScript({
     // googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY,
@@ -14,17 +14,20 @@ const Contact = () => {
       <div className="contactUsSection">
         <h1 className="contactUsHeading">Contact Us</h1>
         <h1 className="contactUsAddress">
-          548 11th Av Hanover
-          On N4N 2S4 CANADA
+          LOW PRINTERS 
           <br />
-          Contact Number :800-840-1731
+          info@lowprinters.com 
+          <br />
+          548 11th AVE Hanover, ON N4N 2S4
+          <br />
+          Contact Number : 800-840-1731
         </h1>
         <GoogleMap
           zoom={12}
           center={center}
           mapContainerClassName="map-container"
         >
-          <MarkerF position={{ lat: 44.154770, lng: -81.025960 }}></MarkerF>
+          <MarkerF position={{ lat: 44.15477, lng: -81.02596 }}></MarkerF>
         </GoogleMap>
       </div>
     );

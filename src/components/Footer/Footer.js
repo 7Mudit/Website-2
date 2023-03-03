@@ -15,7 +15,7 @@ const Footer = () => {
                 <span class="footer-span">Email:</span> info@lowprinters.com
               </p>
               <p class="footer-p">
-                <span class="footer-span">Phone:</span>800-840-1731
+                <span class="footer-span">Phone:</span>888-376-5770
               </p>
               <p class="footer-p">
                 <span class="footer-span">Address:</span> 548 11th Av Hanover

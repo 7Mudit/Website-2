@@ -20,7 +20,7 @@ const Contact = () => {
           <br />
           548 11th AVE Hanover, ON N4N 2S4
           <br />
-          Contact Number : 800-840-1731
+          Contact Number : 888-376-5770
         </h1>
         <GoogleMap
           zoom={12}
